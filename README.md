@@ -12,7 +12,7 @@ git clone https://github.com/ekaragozoglu/bilyoner
 cd bilyoner
 ```
 
-To run the SH file, execute the following command
+2- To run the SH file, execute the following command
 ```bash
 sh setup.sh
 ```
@@ -20,12 +20,12 @@ sh setup.sh
 ## Running Instructions
 To run the tests, you can use the following commands:
 
-Running with a specific tag:
+1- Running with a specific tag:
 ```bash
 mvn clean test "-Dkarate.options=--tags @tagName"
 ```
 
-Running all tests:
+2- Running all tests:
 ```bash
 mvn clean test
 ```
