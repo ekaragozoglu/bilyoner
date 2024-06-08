@@ -9,7 +9,7 @@ After cloning the project, follow these steps to install the dependencies:
 1- Clone the project:
 ```bash
 git clone https://github.com/ekaragozoglu/bilyoner
-cd bilyoner-demo
+cd bilyoner
 ```
 
 To run the SH file, execute the following command
