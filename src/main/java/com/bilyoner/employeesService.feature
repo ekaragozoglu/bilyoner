@@ -1,11 +1,10 @@
-Feature: Bilyoner Demo
+Feature: Employees Service Test
 
     Background:
-        Given def readJavaClass = Java.type('Utility')
         * def config = call read('karate-config.js')
         * url baseUrl
 
-    @demo
+    @employees
     Scenario: Get request to employees service - Status code is 200
         Given path employeesPath
         * request {}
